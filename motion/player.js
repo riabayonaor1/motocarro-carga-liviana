@@ -1,0 +1,2 @@
+// Website playback adapter. The authored timeline stays paused and seek-safe.
+let active=false,anchor=0,offset=0;function frame(){const tl=window.__timelines?.cadena;if(tl&&active)tl.seek((offset+(performance.now()-anchor)/1000)%12);requestAnimationFrame(frame)}addEventListener('message',e=>{if(e.origin!==location.origin||e.data?.type!=='cargo-flow')return;if(active)offset=(offset+(performance.now()-anchor)/1000)%12;active=e.data.active;anchor=performance.now()});parent.postMessage({type:'cargo-flow-ready'},location.origin);requestAnimationFrame(frame);
