@@ -1,6 +1,6 @@
 # Vehículo de carga Liviana Tipo Motocicleta
 
-Recorrido web inmersivo del proyecto de grado 11D, Técnico en Mecánica Automotriz, I. E. Carlos Julio Torrado Peñaranda, Ábrego.
+Recorrido web inmersivo del proyecto de grado 11D, Técnica en Mantenimiento de Motos y Motocarros, I. E. Carlos Julio Torrado Peñaranda, Ábrego.
 
 ## Uso
 
